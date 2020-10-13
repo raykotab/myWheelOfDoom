@@ -9,6 +9,9 @@
     vertical-align: baseline;
     font-family: oldEnglish;
 }
+body {
+    background-image: url(https://www.wallpapertip.com/wmimgs/27-279924_data-src-ruins-background.jpg);
+}
 
 .logo {
     display: flex;
@@ -16,4 +19,13 @@
     padding-top: 1%;
     padding-left: 84%;
     font-family: 'Shadows Into Light', cursive;
+    color: wheat;
+}
+
+#titulo {
+    padding: 4%;
+    font-size: 60px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    color: seashell;
 }
