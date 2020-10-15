@@ -43,28 +43,22 @@ function muertis() {
  
         OPCION 2
  
-var aleatorios= ["Giselle", "Jackson", "Moi", "Alvaro"];
+/* var aleatorios= ["Giselle", "Jackson", "Moi", "Alvaro"];
 
 var sacrificados= [];
-
 
 function muertis() {
   
   var sacrificio= aleatorios[Math.round(Math.random()*aleatorios.length-1)]
 
-  if (sacrificados.lenght == 0) {
-  sacrificados.push(sacrificio);
-  return sacrificio;
-  }
+  for(var i= 0; i < aleatorios.length; i++) {
+    if(sacrificio == sacrificados[i]){
+      return muertis();
+    }
+    else {
+      sacrificados.push(sacrificio);
+      return sacrificio;
+    }
+  }}
 
-  else{
-  for (var i in sacrificados) {
-  if(sacrificio == i) {
-  return muertis();
-  }
-
-  else {
-  sacrificados.push(sacrificio);
-  return sacrificio;}
- }}
- } /*
+  muertis()/*
