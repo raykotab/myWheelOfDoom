@@ -1,31 +1,88 @@
-* {
-    margin:0px;
-    padding:0px;
-    outline: none;
-    list-style: none;
-    text-decoration-color: none;
-    border: none;
-    background: transparent;
-    vertical-align: baseline;
-    font-family: oldEnglish;
-}
-body {
-    background-image: url(https://www.wallpapertip.com/wmimgs/27-279924_data-src-ruins-background.jpg);
-}
-
-.logo {
+                            * {
+                            margin: 0px;
+                            padding: 0px;
+                            outline: none;
+                            list-style: none;
+                            text-decoration-color: none;
+                            border: none;
+                            background: transparent;
+                            vertical-align: baseline;
+                            font-family: oldEnglish;
+                        }
+                        
+                        body {
+                            background-image: url(https://www.wallpapertip.com/wmimgs/27-279924_data-src-ruins-background.jpg);
+                            background-repeat: no-repeat;
+                            background-size: auto;
+                        }
+                        
+                        .logo {
+                            display: flex;
+                            font-size: 50px;
+                            padding-top: 1%;
+                            padding-left: 1%;
+                            padding-right: 1%;
+                            justify-content: flex-end;
+                            font-family: 'Shadows Into Light', cursive;
+                            color: wheat;
+                        }
+                        
+                        #titulo {
+                            padding: 2 %;
+                            font-size: 70px;
+                            font-family: 'Cinzel', serif;
+                            text-align: center;
+                            color: seashell;
+                            text-shadow: 10px 10px 7px #000;
+                        }
+                        
+                        #fotosSuperior {
+                            display: flex;
+                            justify-content: space-evenly;
+                            margin: 10px 10px;
+                            padding: 5px 200px;
+                        }
+                        
+                        #fotosDerecha {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-end;
+                            margin: 10px 10px;
+                            padding: 5px 10px;
+                        }
+                        /*#fotosIzquierda {
     display: flex;
-    font-size: 35px;
-    padding-top: 1%;
-    padding-left: 84%;
-    font-family: 'Shadows Into Light', cursive;
-    color: wheat;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 20px 10px;
+    padding: 10px 10px;
 }
 
-#titulo {
-    padding: 4%;
-    font-size: 60px;
+#fotosAbajo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 10px;
+    padding: 20px 200px;
+    align-items: flex-end;
+}*/
+                        /*figure {
+    color: white;
+    text-shadow: 10px 10px 7px #000;
+    font-size: 18px;
     font-family: 'Cinzel', serif;
-    text-align: center;
-    color: seashell;
-}
+    text-align: auto;
+}*/
+                        
+                        img {
+                            height: 200px;
+                            width: 170px;
+                        }
+                        
+                        #boton {
+                            display: flex;
+                            align-content: center;
+                            /*#containerFotos {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}*/
