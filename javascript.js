@@ -1,49 +1,6 @@
 'use strict'
 
-document.getElementById("sacrificio").onclick = function {sacrificio()};
-
-function sacrificio() {
-  document.getElementById("sacrificio").innerHTML = "YOU CLICKED ME!";
-}
-
-
-
-/*
-    OPCION 1
-
-var aleatorios= ["Giselle", "Jackson", "Moi", "Alvaro"];
-
-var sacrificados= [];
-
-var sacrificio;
-
-function muertis() {
-  
-  var sacrificio= aleatorios[Math.round(Math.random()*aleatorios.length-1)]
-  
-  if (sacrificados.lenght == 0) {
-  sacrificados.push(sacrificio);
-  return sacrificio;
-  }
-
-  else{
-  for (var i in sacrificados) {
-  if(sacrificio == i) {
-  return muertis();
-  }
-
-  else {
-  sacrificados.push(sacrificio);
-  return sacrificio;}
- }}
- } */
-
-
- /* 
- 
-        OPCION 2
- 
-/* var aleatorios= ["Giselle", "Jackson", "Moi", "Alvaro"];
+var aleatorios= ["Estefanie", "Vanesa", "Sergio", "Jorge", "Jose M", "Lorena", "Quim", "Carmen", "Laura 2", "Rene", "Laura1","Gisa", "Alvaro", "Moi", "El señor X", "La señora x", "Loredana", "Joan", "Olga", "Giacomo", "Isma", "El Chiri", "Alejandra", "Jackson",]
 
 var sacrificados= [];
 
@@ -52,13 +9,13 @@ function muertis() {
   var sacrificio= aleatorios[Math.round(Math.random()*aleatorios.length-1)]
 
   for(var i= 0; i < aleatorios.length; i++) {
-    if(sacrificio == sacrificados[i]){
-      return muertis();
+    
+    if(sacrificio != sacrificados[i]){
+      
+    sacrificados.push(sacrificio);
+    return sacrificio;
     }
     else {
-      sacrificados.push(sacrificio);
-      return sacrificio;
-    }
-  }}
-
-  muertis()/*
+      return muertis();
+    }}
+  }

@@ -61,7 +61,14 @@
         }
         
         #boton {
-            display: flex;
-            justify-content: center;
-            padding: 40px
+            padding: 40px;
+            color: white;
+            font-size: 30px;
         }
+
+        #resultado {
+            color: white;
+            font-size: 30px;
+        }
+
+        
