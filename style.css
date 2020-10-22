@@ -60,13 +60,19 @@
             width: 150px;
         }
         
+        #cajaBoton {
+            padding-left: 40%;
+        }
+
         #boton {
-            padding: 40px;
+            padding-top: 10px;
+            padding-bottom: 20px;
             color: white;
             font-size: 30px;
         }
 
         #resultado {
+            padding-left: 30px;
             color: white;
             font-size: 30px;
         }
